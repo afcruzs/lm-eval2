@@ -53,6 +53,8 @@ from . import lambada
 # from . import toxigen
 # from . import crowspairs
 
+from . import bigbench
+
 ########################################
 # Translation tasks
 ########################################
@@ -310,6 +312,9 @@ TASK_REGISTRY = {
     # "storycloze_2016": storycloze.StoryCloze2016,
     # "storycloze_2018": storycloze.StoryCloze2018,
     # "sat": sat.SATAnalogies,
+
+    # Bigbench, requires specific dependencies
+    "bigbench_snarks": bigbench.Snarks,
 }
 
 
